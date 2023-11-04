@@ -1,0 +1,109 @@
+.selectBox{
+    border-radius: 25px;
+    background: rgba(239, 240, 240, 0.5);
+    padding: 25px;
+}
+
+.selectBoxAll{
+    padding: 55px 0 94px;
+}
+
+.selectClass{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.selectClassText{
+    color: #737373;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.selectEco,
+.selectСomfort,
+.selectСomfortBest{
+    cursor: pointer;
+    width: 124px;
+    padding: 13px 0 14px;
+    border: none;
+    border-radius: 51px;
+    background: #EFF0F0;
+    transition: all 0.3s linear;
+}
+
+.selectEco:hover,
+.selectСomfort:hover,
+.selectСomfortBest:hover{
+    background: var(--main-red);
+    color: #fff;
+}
+
+.selectConfig{
+    display: flex;
+    gap: 10px;
+}
+
+.selectBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gridTaxiCars{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding-top: 30px;
+}
+
+.showMore{
+    display: block;
+    margin: 30px auto 0;
+    border: none;
+    border-radius: 6px;
+    background: #CA0100;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 17px 76px 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+    .selectBox{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .selectClass{
+        flex-direction: column;
+    }
+    .selectConfig{
+        margin-top: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .gridTaxiCars{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .selectBox{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .selectClass{
+        flex-direction: column;
+    }
+    .selectConfig{
+        margin-top: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .gridTaxiCars{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

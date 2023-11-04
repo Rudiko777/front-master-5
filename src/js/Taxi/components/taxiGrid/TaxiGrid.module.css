@@ -1,0 +1,118 @@
+.cardBox{
+    min-height: 586px;
+    border-radius: 25px;
+    border: 1px solid #E1E1E1;
+    background: transparent;
+    padding: 25px;
+    transition: all 0.3s linear;
+}
+
+.cardBox:hover{
+    transform: scale(1.05);
+}
+
+.ImgBox{
+    display: flex;
+    gap: 10px;
+}
+
+.cardBoxHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardButtonHeader{
+    border: none;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 76px;
+    border-radius: 51px;
+    background: #E1E1E1;
+    padding: 8px 0;
+}
+
+.taxiCar{
+    margin: -20px auto 0;
+}
+
+.taxiCarName,
+.taxiCarConfig{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.primaryPrice{
+    margin-top: 20px;
+    color: #737373;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.creditDay{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.lastInfoItem{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.lastInfo{
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.advantagesBox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btnsBox{
+    display: flex;
+    gap: 7px;
+}
+
+.btnMoreInfo,
+.btnSubmitApp{
+    border: none;
+    width: 195px;
+    padding: 13px 0 12px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btnMoreInfo{
+    color: #000;
+    background: #E1E1E1;
+}
+
+.btnSubmitApp{
+    background: #CA0100;
+    color: #fff;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1000px){
+    .cardBox{
+        width: 100%;
+    }
+}

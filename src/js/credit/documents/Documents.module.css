@@ -1,0 +1,65 @@
+.documentsTitle{
+    color: #262626;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 33px;
+}
+
+.documentsInfo{
+    max-width: 536px;
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 45px;
+}
+
+.documentsAdvantages{
+    color: #262626;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.advantagesItem{
+    display: flex;
+    gap: 30px;
+}
+
+.advantageText{
+    max-width: 637px;
+    line-height: 24px;
+    color: #262626;
+}
+
+.arrowImg{
+    align-self: center;
+}
+
+.advantagesBox{
+    margin-bottom: 43px;
+}
+
+.acceptPolis{
+    border-radius: 6px;
+    border: none;
+    background: #CA0100;
+    color: #fff;
+    padding: 20px 55px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.documentsBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.documentsImg{
+    margin-right: -60px;
+}

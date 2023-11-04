@@ -1,0 +1,154 @@
+.futureCarBox{
+    margin-top: 36px;
+    min-height: 372px;
+    border-radius: 25px;
+    background-color: rgba(239, 240, 240, 0.5);
+    padding: 45px 119px 52px;
+    position: relative;
+}
+
+.futureCarBox::before{
+    position: absolute;
+    color: #fff;
+    content: '1';
+    top: 44px;
+    left: -18px;
+    font-size: 24px;
+    font-weight: 700;
+    width: 38px;
+    height: 38px;
+    background-color: #CA0100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.futureCarTitle{
+    color: #262626;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.futureCarBoxBtns{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 13px;
+}
+
+.selectWrapper{
+    width: 560px;
+    height: 65px;
+    position: relative;
+}
+
+.selectWrapper::before{
+    position: absolute;
+    content: '';
+    top: 28px;
+    right: 15px;
+    width: 12px;
+    height: 12px;
+    background-image: url("../../../images/disposal/point.svg");
+    pointer-events: none;
+}
+
+.futureCarMarks,
+.futureCarModel,
+.futureCarKomplect{
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    border-radius: 6px;
+    appearance: none;
+    cursor: pointer;
+    border: 1px solid #E1E1E1;
+}
+
+select:focus{
+    outline: none;
+    box-shadow: 0 0 0 1px #CA0100, 0 0 10px #262626;
+}
+
+.selectBox{
+    display: flex;
+}
+
+.selectBoxSecond {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.selectBoxSecond::before{
+    content: '';
+    position: absolute;
+    width: 441px;
+    height: 271px;
+    background-image: url("../../../images/disposal/disposalCarBack.png");
+    top: 0;
+    left: 0;
+}
+
+.selectBoxSecondTitle{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.priceWithSale{
+    margin-top: 45px;
+    color: #737373;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+}
+
+.selectBoxSecondPrice{
+    margin-top: 6px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.basicPrice{
+    margin-top: 27px;
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 13px;
+}
+
+.selectBoxSecondBasicPrice{
+    margin-top: 6px;
+    color: #737373;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.selectBoxSecondRedBox{
+    background-color: #CA0100;
+    border-radius: 11px;
+    color: #fff;
+    padding: 11px 10px 8px 13px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.selectBoxSecondRedBox p{
+    font-size: 14px;
+}
+
+.selectBoxSecondRedBox span{
+    margin-top: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+}

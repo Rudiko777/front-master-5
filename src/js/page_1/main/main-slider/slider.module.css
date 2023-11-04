@@ -1,0 +1,84 @@
+.mainSliderCard{
+    min-height: 600px;
+    background-color: #EFF0F0;
+    border-radius: 25px;
+    background-image: url("../../../../images/page_1/main/sliderBack.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+}
+
+
+.mainSliderCard:after{
+    content: url("../../../../images/page_1/main/car1.png");
+    position: absolute;
+    right: 334px;
+    top: 173px;
+    z-index: 5;
+}
+
+.mainSliderCard:before{
+    content: url("../../../../images/page_1/main/car2.png");
+    position: absolute;
+    right: 172px;
+    top: 184px;
+    z-index: 1;
+}
+
+.mainSliderAuto{
+    position: absolute;
+    top: 167px;
+    right: 82px;
+}
+
+.sliderContainer{
+    margin: 0 auto;
+    max-width: 1810px;
+}
+
+.mainSliderRec{
+    padding: 5px 11px 5px 13px;
+    color: #fff;
+    background-color: #CA0100;
+    width: 208px;
+    position: absolute;
+    top: 81px;
+    border-radius: 33px;
+    font-weight: 700;
+}
+
+.mainSliderTitle{
+    color: #262626;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 145px;
+}
+
+.mainSliderTEXT{
+    color: #737373;
+    font-size: 29px;
+    position: absolute;
+    top: 309px;
+}
+
+.mainSliderLeftBoxBTN,
+.mainSliderRightBoxBTN{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.mainSliderLeftBoxBTN{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+}
+
+.mainSliderRightBoxBTN{
+    position: absolute;
+    right: 50px;
+    top: 50%;
+}

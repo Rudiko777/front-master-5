@@ -1,0 +1,33 @@
+.ourPartnersTitle{
+    color: #262626;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.PartnersBox{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 32px;
+}
+
+.PartnerItem{
+    background-color: #EFF0F0;
+    border-radius: 10px;
+    width: 327px;
+    height: 133px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.PartnerItem:hover{
+    opacity: 0.5;
+}
+
+.PartnerImg{
+    padding: 30px 62px;
+}
+
+.PartnerImgInd{
+    padding: 52px 62px 53px;
+}

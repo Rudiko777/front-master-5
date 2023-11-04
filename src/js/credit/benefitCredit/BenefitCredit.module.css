@@ -1,0 +1,22 @@
+.benefitItemBox{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.benefitItemBox h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.benefitBox{
+    margin-top: 54px;
+    display: flex;
+    gap: 50px;
+}
+
+.benefitCol{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}

@@ -1,0 +1,22 @@
+.box{
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.box:after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 34px;
+    background-color: #CA0100;
+    left: 0;
+    bottom: 0;
+}
+
+.a{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}

@@ -1,0 +1,164 @@
+.buyInCredit::before{
+    position: absolute;
+    color: #fff;
+    content: '2';
+    top: 44px;
+    left: -18px;
+    font-size: 24px;
+    font-weight: 700;
+    width: 38px;
+    height: 38px;
+    background-color: #CA0100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.buyInCredit{
+    margin: 20px 0;
+    min-height: 300px;
+    border-radius: 25px;
+    background-color: rgba(239, 240, 240, 0.5);
+    padding: 45px 119px 52px;
+    position: relative;
+}
+
+.inputBoxTitle{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.inputBoxContent{
+    max-width: 523px;
+    margin-top: 21px;
+}
+
+.inputBoxContentInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputBox input{
+    width: 100%;
+}
+
+.inputBox{
+    position: relative;
+}
+
+.inputReal[type=range]{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input1,
+.input2,
+.input3,
+.input4,
+.input5,
+.input6,
+.input7,
+.input8 {
+    font-size: 13px;
+    font-weight: 700;
+    position: absolute;
+    color: #ADADB0;
+    bottom: -28px;
+}
+
+.input1{
+    left: 0;
+}
+
+.input2{
+    left: 7.4%;
+}
+
+.input3{
+    left: 22.5%;
+}
+
+.input4{
+    left: 37.5%;
+}
+
+.input5{
+    left: 53%;
+}
+
+.input6{
+    left: 67.8%;
+}
+
+.input7{
+    left: 83%;
+}
+
+.input8{
+    right: 0;
+}
+
+.number{
+    font-weight: 700;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxItemFirst{
+    width: 523px;
+}
+
+.boxItemSecond{
+    width: 560px
+}
+
+.checkboxBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.PrimaryCase{
+    margin-top: 30px;
+    height: 65px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #E1E1E1;
+    background:  #FFF;
+    padding: 0 18px;
+}
+
+.selectBank{
+    padding-top: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bankBox1,
+.bankBox2,
+.bankBox3
+{
+    width: 119px;
+    height: 42px;
+    background-color: #fff;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.bankBox1:hover,
+.bankBox2:hover,
+.bankBox3:hover{
+    background-color: rgba(225, 225, 225, 1);
+}
+
+.bankBoxActive{
+    background-color: rgba(225, 225, 225, 1);
+}

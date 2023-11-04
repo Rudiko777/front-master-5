@@ -1,0 +1,37 @@
+.advantageTitle{
+    width: 280px;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.advantageTitleAfter::after{
+    content: '';
+    position: absolute;
+    top: -59px;
+    right: -47px;
+    width: 94px;
+    height: 1px;
+    background: #C2C2C4;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1000px){
+    .advantageTitleAfter::after{
+        display: none !important;
+    }
+}
+
+
+.advantageBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 31px;
+}
+
+.imgBox{
+    height: 79px;
+    display: flex;
+    align-items: flex-end;
+}

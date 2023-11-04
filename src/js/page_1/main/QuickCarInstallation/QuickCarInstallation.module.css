@@ -1,0 +1,40 @@
+.installation{
+    padding: 40px 0 64px;
+}
+
+.installationBox{
+    display: flex;
+    gap: 40px;
+    border-radius: 11px;
+    background-color: rgba(239, 240, 240, 0.5);
+    padding: 20px 30px 22px;
+}
+
+/*.carColumn{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+.installationLinksAll{
+    display: flex;
+    flex-direction: column;
+    width: 138px;
+}
+
+
+.installationCars{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.installationInput{
+    max-width: 490px;
+}
+
+.autoSearch{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 22px;
+}

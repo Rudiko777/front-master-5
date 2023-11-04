@@ -1,0 +1,101 @@
+.pointImg{
+    transform: rotate(180deg);
+    cursor: pointer;
+    transition: 300ms;
+}
+.pointImgActive{
+    transition: 300ms;
+}
+
+
+.Btn div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 15px 24px;
+}
+
+.Btn{
+    width: 237px;
+    border: 1px solid #E1E1E1;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.myBtns{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.showBtn{
+    width: 100%;
+    background-color: #CA0100;
+    padding: 17px 0;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.showBtn:hover{
+    outline: 1px solid #CA0100;
+    background-color: #fff;
+    color: #CA0100;
+}
+
+.showBtn{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.btnList{
+    display: flex;
+    flex-direction: column;
+}
+
+.GeneralBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.btnListItem{
+    text-align: center;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+
+
+.btnListItem:last-child{
+    text-align: center;
+    border-bottom: none;
+}
+
+
+.btnInsideBox{
+    width: 237px;
+    background-color: white;
+    position: absolute;
+    margin-top: 68px;
+    border-radius: 6px;
+    border: 1px solid #E1E1E1;
+    animation: 0.5s show ease;
+}
+
+@keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.btnListItemLink{
+    width: 100%;
+    display: block;
+}
+
+.btnListItemLinkActive{
+    opacity: 0.8;
+}

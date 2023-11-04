@@ -1,0 +1,668 @@
+@import "global.css";
+@import "reset.css";
+@import "fonts.css";
+
+:root{
+    --gradient-orange: #ffa600;
+    --gradient-green: #33e80d;
+    --gradient-blue: #00b3ff;
+    --root-color: #262626;
+    --taxi-yellow: #FFCD1B;
+    --main-red: #CA0100;
+}
+
+.header-top-color{
+    background-color: #EFF0F0;
+    padding: 13px 0 15px;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top-location-desc,
+.header-top-clock-desc,
+.header-top-whatsupp-desc{
+    color: #737373;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.header-top-location-desc{
+    position: relative;
+    padding-left: 22px;
+}
+
+.header-top-location-desc::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url("../images/page_1/header/location.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 15px;
+}
+
+.header-top-clock-desc{
+    position: relative;
+    padding-left: 23px;
+}
+
+.header-top-clock-desc::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url("../images/page_1/header/clock.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 17px;
+}
+
+.header-top-whatsupp-desc{
+    position: relative;
+    padding-left: 27px;
+}
+
+.header-top-whatsupp-desc::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url("../images/page_1/header/whatsUpp.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 21px;
+    height: 21px;
+}
+
+
+.header-main-box{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-main-sidebar-link{
+    margin-right: 20px;
+}
+.header-main-advertisement{
+    max-width: 170px;
+    margin-left: 23px;
+    margin-right: 29px;
+}
+
+.header-main-logo-container {
+    max-width: 198px;
+    padding-right: 21px;
+    display: block;
+    position: relative;
+}
+
+.header-main-logo-container:after{
+    content: '';
+    position: absolute;
+    background-color: #C2C2C4;
+    width: 1px;
+    height: 35px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0
+}
+
+
+.header-main-advertisement-time{
+    color: #fff;
+    padding: 0 4px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.header-main-navigation-list{
+    display: flex;
+    gap: 16px;
+}
+
+/*ПРАКА 2 */
+
+.header-main-navigation-item{
+    font-size: 14px;
+    transition: color 0.3s linear;
+}
+
+.header-main-navigation-item:hover{
+    color: red;
+}
+
+.header-main-navigation-item-link:visited{
+    color: purple;
+}
+/*ПРАКА 2 */
+
+.header-main-connection{
+    display: flex;
+    gap: 20px;
+}
+
+.header-main-connection-tel{
+    display: flex;
+    gap: 12px;
+}
+
+.header-main-connection-tel-numbers{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 213px;
+}
+
+.header-main-connection-tel-numbers-first{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-main-connection-btn{
+    border: none;
+    background-color: #CA0100;
+    border-radius: 6px;
+    padding: 16px 28px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    box-shadow: 3px 3px 10px #1B1B1B;
+}
+
+.header-main-connection-btn:hover{
+    outline: 1px solid #CA0100;
+    background-color: #fff;
+    color: #CA0100;
+}
+
+
+.header-catalogs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-catalogs-list{
+    display: flex;
+    gap: 86px;
+}
+
+.header-catalogs-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-catalog-item-title{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.interactive-list{
+    display: flex;
+    gap: 42px;
+}
+
+.header-catalogs{
+    padding-top: 32px;
+}
+
+.specialOffers-title,
+.reviews-title{
+    color: #262626;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.reviews-item{
+    border-radius: 25px;
+}
+
+.reviews-item-box{
+
+    min-width: 446px;
+}
+
+
+.reviews-item-back{
+    position: relative;
+    margin: 0 auto;
+    padding: 60px 0;
+    z-index: 1;
+}
+
+.reviews-item-push{
+    position: absolute;
+    top: 112px;
+    left: 192px;
+    content: '';
+    z-index: 5;
+}
+
+.reviews-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 29px;
+}
+
+.reviews-title{
+    margin-bottom: 44px;
+}
+
+.reviews-item-box-first{
+    background-color: #262626;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: relative;
+}
+
+.reviews-item-box-second{
+    padding: 32px 23px 39px 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #F2F2F2;
+}
+
+.reviews-item-author{
+    margin-bottom: 30px;
+}
+
+.reviews-item-author-text{
+    color: #737373;
+    margin-bottom: 21px;
+}
+
+.reviews-item-moreInfo{
+    width: 188px;
+    background-color: #E1E1E1;
+    padding: 10px 15px 6px 20px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.reviews-item-moreInfo p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+.footer-containerFluid{
+    margin: 0 auto;
+    max-width: 1810px;
+    background-color: #262626;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    color: #fff;
+}
+
+.footer-navigation{
+    padding: 42px 0 39px;
+}
+
+.footer-nav-item-link{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer-nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-head-line{
+    border-bottom: 1px solid rgba(255,255, 255, 0.2);
+}
+
+.komb-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.komb-1 .komb-1-child{
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.komb-1 > .komb-1-child{
+    color: red;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background-color: white;
+    outline: 4px solid #CA0100;
+    opacity: 0.52;
+}
+
+.leftsideMenu{
+    display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1000px){
+    .footer-containerFluid{
+        width: 100% !important;
+    }
+    .breadcrumbs{
+        display: none !important;
+    }
+    .footer-nav-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .header-main-box{
+        position: relative;
+    }
+    .header-top{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    .header-main-sidebar{
+        width: 20px;
+        height: 14px;
+    }
+    .header-main-advertisement{
+        display: none;
+    }
+    .header-main-navigation{
+        display: none;
+    }
+    .header-main-connection{
+        display: none;
+    }
+    .header-catalogs-list{
+        display: none;
+    }
+    .header-main-sidebar-link{
+        margin: 0;
+    }
+    .interactive-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-main-logo-container:after{
+        display: none;
+    }
+    .header-catalogs{
+        display: block;
+    }
+
+    .leftsideMenu{
+        display: block;
+        z-index: 5;
+        top: 0;
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        transition: all 0.5s;
+    }
+    .leftsideMenuList{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .leftsideMenuClose{
+        transform: translateX(-200%);
+    }
+    .leftsideMenuList li + li{
+        margin-top: 10px;
+    }
+    .leftsideMenuItem:last-child{
+        margin-bottom: 10px;
+    }
+    .header-main-sidebar-link:active{
+        transform: rotate(90deg);
+    }
+    .header-main-sidebar-link{
+        transition: all 0.3s;
+    }
+    .leftsideMenuCloseBtn:active{
+        transform: rotate(90deg);
+    }
+    .leftsideMenuCloseBtn{
+        transition: all 0.3s;
+    }
+}
+
+.leftsideMenuCloseBtn{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.crumb{
+    font-size: 14px;
+    padding-right: 16px;
+    position: relative;
+}
+
+.crumbBlack{
+    color: #262626 !important;
+}
+
+.crumb:last-child::after{
+    display: none;
+}
+
+.crumb::after{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-image: url("../../src/images/credit/arrowCrumbs.svg");
+    background-repeat: no-repeat;
+    right: 0;
+    top: 5px;
+    bottom: 5px;
+}
+
+.breadcrumbs{
+    display: flex;
+    gap: 11px;
+}
+
+@keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.likesOpen{
+    border-radius: 10px;
+    outline: 1px solid #CA0100;
+    position: absolute;
+    right: 10px;
+    top: 190px;
+    z-index: 10;
+    width: 200px;
+    height: 200px;
+    animation: 0.5s show ease;
+    background-color: #fff;
+}
+
+.likesOpenTitle{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px 0 5px 10px;
+    background-color: #CA0100;
+}
+
+.likesList{
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.likesListItem{
+    display: flex;
+    gap: 15px;
+}
+
+.likesListItem span{
+    padding: 5px 9px;
+    font-size: 12px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #CA0100;
+}
+
+.frameBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.frameBoxInside{
+    position: relative;
+}
+
+.divInsideIframe{
+    z-index: 100;
+    position: absolute;
+    background-color: #1B1B1B;
+    top: 20%;
+    left: -20%;
+    right: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    transform: translate(-20%, -20%);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+}
+
+.frameBoxInside:hover .divInsideIframe {
+    opacity: 1;
+    visibility: visible;
+}
+
+.frameBoxInside::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+}
+
+.frameBoxInside:hover::before{
+    opacity: 1;
+    visibility: visible;
+}
+
+.frameBoxInside:hover .divInsideIframe{
+    opacity: 1;
+    visibility: visible;
+    animation: slide-in 0.3s forwards;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-50px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.captionBox{
+    font-size: 18px;
+    color: #CA0100;
+    font-weight: 700;
+}
+
+.divInsideIframe p{
+    margin-top: 10px;
+    color: #fff;
+}
+
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+.custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #CA0100;
+    border-radius: 2px;
+    margin-right: 5%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.custom-checkbox ~ label{
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    /*max-width: 200px;*/
+}
+
+.custom-checkbox:checked+label::before {
+    background-color: #CA0100;
+    background-image: url("../images/disposal/check.svg");
+}
+
+.custom-checkbox:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #CA0100;
+}
+/* стили для активного состояния чекбокса (при нажатии на него) */
+.custom-checkbox:not(:disabled):active+label::before {
+    background-color: #CA0100;
+    border-color: #CA0100;
+}
+/* стили для чекбокса, находящегося в фокусе */
+.custom-checkbox:focus+label::before {
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 141, 0.25);
+}
+/* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+.custom-checkbox:focus:not(:checked)+label::before {
+    border-color: #CA0100;
+}
+/* стили для чекбокса, находящегося в состоянии disabled */
+.custom-checkbox:disabled+label::before {
+    background-color: #e9ecef;
+}

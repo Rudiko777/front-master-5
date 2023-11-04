@@ -1,0 +1,90 @@
+.InsuranceBox{
+    display: flex;
+    justify-content: space-between;
+    padding: 46px 0 96px;
+}
+
+.Kasko,
+.Osago{
+    max-width: 684px;
+    background-color: #EFF0F0;
+    border-radius: 25px;
+    border: 1px solid #EFF0F0;
+    height: 151px;
+    position: relative;
+    padding-right: 28px;
+}
+
+.zont{
+    position: absolute;
+    top: 15px;
+    bottom: 17px;
+    left: 19px;
+    z-index: 5;
+}
+
+.osago{
+    position: absolute;
+    top: 8px;
+    bottom: 11px;
+    left: 20px;
+    z-index: 5;
+}
+
+.radCar{
+    position: absolute;
+    top: 45px;
+    bottom: 25px;
+    left: 61px;
+    z-index: 4;
+}
+
+.blueCar{
+    position: absolute;
+    z-index: 4;
+    top: 32px;
+}
+
+.contactInfo{
+    padding-top: 36px;
+    margin-left: 218px;
+    display: flex;
+    gap: 33px;
+}
+
+.contactInfoText{
+    max-width: 217px;
+}
+
+.contactInfoText h3{
+    color: #262626;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+.contactInfoText p{
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.count{
+    display: block;
+    border-radius: 6px;
+    background: #CA0100;
+    border: none;
+    width: 188px;
+    height: 47px;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+}

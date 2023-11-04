@@ -1,0 +1,40 @@
+.mainBox{
+    margin-top: 80px;
+}
+
+.mainTitle{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.mainText{
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 742px;
+    margin-top: 11px;
+}
+
+.mainRateContentBox{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 17px 12px 26px;
+}
+
+.mainRateContentBox span{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.mainInterestRate{
+    margin-top: 67px;
+    background-color: #CA0100;
+    display: inline-block;
+    border-radius: 76px;
+}
+
+.mainInterestRateTitle{
+    font-size: 68px;
+    font-weight: 900;
+}
