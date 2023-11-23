@@ -18,16 +18,16 @@ class Reviews extends React.Component{
                         <div className={"reviews-item-box"}>
                             <div className="reviews-item-box-first">
                                 <img className={"reviews-item-back"} src={backReview}/>
-                                <a className={"reviews-item-push-link"} href={"https://youtu.be/PhkSouRdcSo?si=-SepfQqnp9ns_ZNt"} data-fancybox>
+                                <a className={"reviews-item-push-link"} href={"https://youtu.be/uOn2mtQBx6E?si=uqUc5-gffAo5vVOY"} data-fancybox>
                                     <img className={"reviews-item-push"} src={push}/>
                                 </a>
                             </div>
                             <div className="reviews-item-box-second">
                                 <h4 className={"reviews-item-author"}>
-                                    Чакрян Рудольф
+                                    Ловчев Михаил Васильевич
                                 </h4>
                                 <p className="reviews-item-author-text">
-                                    «Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA...
+                                    Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA...
                                 </p>
                                 <button className={"reviews-item-moreInfo"} type={"submit"}>
                                     <p>Подробнее</p>
@@ -40,16 +40,16 @@ class Reviews extends React.Component{
                         <div className={"reviews-item-box"}>
                             <div className="reviews-item-box-first">
                                 <img className={"reviews-item-back"} src={backReview}/>
-                                <a className={"reviews-item-push-link"} href={"https://youtu.be/k35Jt-VnzO8?si=Hw0bHRBe-0tq9haX"} data-fancybox>
+                                <a className={"reviews-item-push-link"} href={"https://youtu.be/zvNweW0U3-o?si=GYEWvqAYWMCyERcE"} data-fancybox>
                                     <img className={"reviews-item-push"} src={push}/>
                                 </a>
                             </div>
                             <div className="reviews-item-box-second">
                                 <h4 className={"reviews-item-author"}>
-                                    Николай Жариков
+                                    Саиков Константин Алексеевич
                                 </h4>
                                 <p className="reviews-item-author-text">
-                                    «Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA...
+                                    После прогулки по автосалону и тест-драйва я чувствовал себя как ребенок в игрушечном магазине. Уверенность в качестве и надежности автомобилей Altera действительно окупается с первых метров на дороге.
                                 </p>
                                 <button className={"reviews-item-moreInfo"} type={"submit"}>
                                     <p>Подробнее</p>
@@ -62,16 +62,16 @@ class Reviews extends React.Component{
                         <div className={"reviews-item-box"}>
                             <div className="reviews-item-box-first">
                                 <img className={"reviews-item-back"} src={backReview}/>
-                                <a className={"reviews-item-push-link"} href={"https://youtu.be/56jyyb8Qyso?si=Rlq6J5R2CaZkQ9_q"} data-fancybox>
+                                <a className={"reviews-item-push-link"} href={"https://youtube.com/shorts/-PjG4ZNQMQM?si=GygKthLA05cBkEi5"} data-fancybox>
                                     <img className={"reviews-item-push"} src={push}/>
                                 </a>
                             </div>
                             <div className="reviews-item-box-second">
                                 <h4 className={"reviews-item-author"}>
-                                    Степан Казаков
+                                    Михайлиди Александр Максимович
                                 </h4>
                                 <p className="reviews-item-author-text">
-                                    «Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA...
+                                    Я просто не могу не поделиться своим восторгом о посещении автосалона Altera. Это был незабываемый опыт, который оставил во мне глубокое впечатление. Что поразило меня - широкий ассортимент автомобилей.
                                 </p>
                                 <button className={"reviews-item-moreInfo"} type={"submit"}>
                                     <p>Подробнее</p>

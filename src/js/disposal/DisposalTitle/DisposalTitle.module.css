@@ -38,3 +38,25 @@
     font-size: 68px;
     font-weight: 900;
 }
+
+@media screen and (min-width: 320px) and (max-width: 450px){
+    .mainBox{
+        margin: 0;
+    }
+    .mainTitle{
+        font-size: 30px;
+    }
+    .mainText{
+        font-size: 15px;
+    }
+    .mainInterestRate{
+        min-width: 176px;
+        margin-top: 80%;
+    }
+    .mainInterestRateTitle{
+        font-size: 25px;
+    }
+    .mainRateContentBox{
+        font-size: 10px;
+    }
+}

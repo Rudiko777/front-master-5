@@ -38,3 +38,24 @@
     line-height: normal;
     margin-bottom: 22px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 450px){
+    .installationBox{
+        display: flex;
+        flex-direction: column;
+    }
+    .installationCars{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .installationLinksAll{
+        width: 100%;
+    }
+    .installationInput{
+        max-width: 100%;
+    }
+    .autoSearch{
+        font-size: 20px;
+        text-align: center;
+    }
+}

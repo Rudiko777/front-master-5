@@ -7,10 +7,6 @@ import search from '../../../images/page_1/header-main/search.svg'
 import {Link} from "react-router-dom";
 
 export const Catalogs = ()=>{
-
-    const[likeState, setLikeState] = useState(false);
-
-
     return(
         <div className={"header-catalogs"}>
             <ul className="header-catalogs-list">
@@ -51,45 +47,8 @@ export const Catalogs = ()=>{
             <ul className="interactive-list">
                 <li className="interactive-item">
                     <a className={"interactive-item-link"} href={"#"}>
-                        <img className={"interactive-item-img"} src={likes} onMouseOver={()=> setLikeState(!likeState)} onMouseOut={()=> setLikeState(!likeState)}/>
+                        <img className={"interactive-item-img"} src={likes}/>
                     </a>
-                    {
-                        likeState ?
-                            <>
-                                <div className={"likesOpen"}>
-                                    <h3 className={"likesOpenTitle"}>
-                                        Likes
-                                    </h3>
-                                    <ul className={"likesList"}>
-                                        <li className={"likesListItem"}>
-                                            <span>1</span>
-                                            <Link to={"#"}>
-                                                Porsche
-                                            </Link>
-                                        </li>
-                                        <li className={"likesListItem"}>
-                                            <span>2</span>
-                                            <Link to={"#"}>
-                                                BMW
-                                            </Link>
-                                        </li>
-                                        <li className={"likesListItem"}>
-                                            <span>3</span>
-                                            <Link to={"#"}>
-                                                Mercedes-Benz
-                                            </Link>
-                                        </li>
-                                        <li className={"likesListItem"}>
-                                            <span>4</span>
-                                            <Link to={"#"}>
-                                                Audi
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </>
-                            : null
-                    }
                 </li>
                 <li className="interactive-item">
                     <a className={"interactive-item-link"} href={"#"}>

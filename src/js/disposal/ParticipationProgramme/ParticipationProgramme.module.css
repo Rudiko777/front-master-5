@@ -63,3 +63,17 @@
     margin-top: 19px;
     margin-left: 57px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 450px){
+    .participationTitle{
+        font-size: 24px;
+        text-align: center;
+    }
+    .participationBox::before{
+        display: none;
+    }
+
+    .participationBox::after{
+        display: none;
+    }
+}

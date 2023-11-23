@@ -162,3 +162,44 @@
 .bankBoxActive{
     background-color: rgba(225, 225, 225, 1);
 }
+
+@media screen and (min-width: 320px) and (max-width: 450px){
+    .buyInCredit::before{
+        width: 27px;
+        height: 27px;
+        top: 20px;
+        left: 19px;
+    }
+    .box{
+        display: block;
+    }
+    .buyInCredit{
+        padding: 23px 20px 20px 20px;
+    }
+    .inputBoxTitle{
+        margin-left: 57px;
+        font-size: 20px;
+    }
+    .boxItemFirst{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .inputBoxContent{
+        max-width: none;
+        width: 100%;
+    }
+    .boxItemSecond{
+        width: 100%;
+    }
+    .checkboxBox{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .selectBank{
+        padding-top: 25px;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}

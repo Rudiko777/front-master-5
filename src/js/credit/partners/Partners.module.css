@@ -31,3 +31,50 @@
 .PartnerImgInd{
     padding: 52px 62px 53px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 450px){
+    .ourPartnersTitle{
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .PartnersBox{
+        grid-template-columns: repeat(2, 2fr);
+        grid-gap: 10px;
+    }
+    .PartnerItem{
+        position: relative;
+        width: 140px;
+        height: 57px;
+    }
+    .PartnerItem:first-child::before{
+        position: absolute;
+        content: url("../../../images/credit/smallAlpha.png");
+        top: 10px;
+        left: 19px;
+    }
+    .PartnerItem:nth-child(2)::before{
+        position: absolute;
+        content: url("../../../images/credit/smallBlueCard.png");
+        top: 10px;
+        left: 19px;
+    }
+    .PartnerItem:nth-child(3)::before{
+        position: absolute;
+        content: url("../../../images/credit/smallSovkomBank.png");
+        top: 10px;
+        left: 19px;
+    }
+    .PartnerItem:last-child::before{
+        position: absolute;
+        content: url("../../../images/credit/smallRosGosTrah.svg");
+        top: 0;
+        left: 0;
+    }
+    .PartnerImg{
+        display: none;
+    }
+    .PartnerImgInd{
+        display: none;
+    }
+}
+

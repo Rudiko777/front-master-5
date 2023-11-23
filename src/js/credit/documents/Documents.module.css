@@ -63,3 +63,31 @@
 .documentsImg{
     margin-right: -60px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 450px){
+    .documentsTitle{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .documentsBox{
+        flex-direction: column;
+        justify-content: normal;
+    }
+    .documentsImg{
+        display: none;
+    }
+    .documentsInfo{
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+    .documentsAdvantages{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .advantagesItem{
+        margin-bottom: 15px;
+    }
+    .advantagesBox{
+        margin-bottom: 30px;
+    }
+}

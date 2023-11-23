@@ -10,6 +10,9 @@ import {CollectionsSlider} from "./ OurCollections/collections";
 import {CompetitorsJs} from "./ competitors/competitorsJs";
 import {FormPraca2} from "./formPraca4/formPraca2";
 import GradientCards from "./gradient/GradientCards";
+import Basket from "./basket/Basket";
+
+
 
 
 class MainJs extends React.Component{
@@ -25,20 +28,7 @@ class MainJs extends React.Component{
                 <div className={"container"}>
                     <CompetitorsJs sales="от 10 до 25 %"/>
                     <Reviews />
-                    <div className={"frameBox"}>
-                        <div className={"frameBoxInside"}>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/_vQEJ227Bi0?si=Je3J7XNbZdoBwdRx" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                            <div className={"divInsideIframe"}>
-                                <span className={"captionBox"}>
-                                    Противостояние BMW и Mercedes-Benz
-                                </span>
-                                <p>
-                                    Надежность — один из главных критериев, которые нужно учитывать при покупке авто. Если сравнивать по нему представителей из модельного ряда рассматриваемых производителей, то Mercedes-Benz превосходит BMW. Когда речь идет о классических седанах, то наиболее надежными считаются модели E-Class
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <GradientCards/>
+                    <Basket/>
                 </div>
             </>
         )

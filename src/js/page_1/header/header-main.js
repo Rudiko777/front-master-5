@@ -1,6 +1,7 @@
 import React from "react";
 import '../../.././css/style.css'
 import logo from '../../../images/page_1/header-main/logo.svg'
+import logoClose from '../../../images/page_1/header-main/sidebarClose.svg'
 import sidebar from '../../../images/page_1/header-main/sidebar.svg'
 import NavigationMain from "./navigation";
 import {ConnectionMain} from "./connection";
@@ -18,7 +19,7 @@ export const HeaderMain = ()=>{
         <>
             <div className={"header-main-box"}>
                 <a href={"#"} className={"header-main-sidebar-link"} onClick={()=>setValue(!value)}>
-                    <img className={"header-main-sidebar"} src={sidebar} alt={"Sidebar"}/>
+                    <img style={{width: "28px"}} className={"header-main-sidebar"} src={sidebar} alt={"Sidebar"}/>
                 </a>
                 <div className={value ? "leftsideMenu" : cn("leftsideMenuClose", "leftsideMenu")}>
                     <button className={"leftsideMenuCloseBtn"} onClick={()=>setValue(!value)}>

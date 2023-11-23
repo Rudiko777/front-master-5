@@ -99,3 +99,15 @@
 .btnListItemLinkActive{
     opacity: 0.8;
 }
+
+@media screen and (min-width: 320px) and (max-width: 450px) {
+    .myBtns{
+        flex-direction: column;
+    }
+    .GeneralBox{
+        width: 100%;
+    }
+    .Btn{
+        width: 100%;
+    }
+}

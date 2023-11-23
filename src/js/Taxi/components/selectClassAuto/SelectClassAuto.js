@@ -3,6 +3,8 @@ import styles from './SelectClassAuto.module.css'
 import stylesBtn from '../../../disposal/FutureCar/FutureCar.module.css'
 import btnStyles from "../../../disposal/FutureCar/FutureCar.module.css";
 import TaxiCard from "../taxiGrid/TaxiCard";
+import cn from 'classnames'
+
 
 
 const SelectClassAuto = () => {
@@ -17,13 +19,13 @@ const SelectClassAuto = () => {
                     <p className={styles.selectClassText}>
                         Выберите класс автомобиля
                     </p>
-                    <button className={styles.selectEco} type={"submit"}>
+                    <button className={cn(styles.selectEco, {[styles.buttonActive] : selectClassEco === true})} onClick={()=> setSelectClassEco(!selectClassEco)}>
                         Эконом
                     </button>
-                    <button className={styles.selectСomfort} type={"submit"}>
+                    <button className={cn(styles.selectСomfort, {[styles.buttonActive] : selectClassComfort === true})} onClick={()=> setSelectClassComfort(!selectClassComfort)}>
                         Комфорт
                     </button>
-                    <button className={styles.selectСomfortBest} type={"submit"}>
+                    <button className={cn(styles.selectСomfortBest, {[styles.buttonActive] : selectClassComfortBetter === true})} onClick={()=> setSelectClassComfortBetter(!selectClassComfortBetter)}>
                         Комфорт +
                     </button>
                 </div>

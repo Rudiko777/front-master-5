@@ -1,4 +1,4 @@
-import React, {useRef} from "react";
+import React, {useRef, useState} from "react";
 import styles from './MainAuth.module.css'
 import google from '../../../src/images/Auth/Google.png'
 import apple from '../../../src/images/Auth/Apple.svg'
@@ -12,12 +12,7 @@ import {CarCards} from "../page_1/main/carCards/carCards";
 
 
 export const MainAuth = ()=>{
-
-    const inputRef = useRef(null);
-
-    const handleInputRef = ()=>{
-        alert(inputRef.current.value);
-    }
+    const[passwordVisability, setPasswordVisability] = useState(false);
 
     return(
         <>
@@ -38,12 +33,8 @@ export const MainAuth = ()=>{
                         Or
                     </h2>
                     <form className={styles.form}>
-                        <div className={styles.form1Box}></div>
-                        <div className={styles.form2Box}></div>
-                        <div className={styles.form3Box}></div>
-                        <div className={styles.form4Box}></div>
                         <div className={styles.formNameBox}>
-                            <input type={"text"} className={styles.formName} placeholder={"Tom Hillson"} ref={inputRef}/>
+                            <input type={"text"} className={styles.formName} placeholder={"Tom Hillson"}/>
                             <button className={styles.formNameBtn}>
                                 <img className={styles.formNameImg} src={formName} alt={"Name"}/>
                             </button>
@@ -56,15 +47,15 @@ export const MainAuth = ()=>{
                             </button>
                         </div>
                         <div className={styles.formNameBox}>
-                            <input type={"password"} className={styles.formPassword}/>
+                            <input type={passwordVisability ? "text" : "password"} className={styles.formPassword}/>
                             <button className={styles.formPasswordBtn}>
                                 <img className={styles.formPasswordImg} src={formPassword} alt={"Password"}/>
                             </button>
-                            <button className={styles.formNoseeBtn}>
+                            <button type={"button"} className={styles.formNoseeBtn} onClick={() => setPasswordVisability(!passwordVisability)}>
                                 <img className={styles.formNoseeImg} src={noSee} alt={"noSee"}/>
                             </button>
                         </div>
-                        <button className={styles.signUp} type={"submit"} onClick={handleInputRef}>
+                        <button className={styles.signUp}>
                             SIGN UP
                         </button>
                         <p className={styles.dopInfo}>

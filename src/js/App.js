@@ -6,6 +6,7 @@ import {Authorization} from "./Authorization";
 import {CreditPage} from "./CreditPage";
 import {DisposalPage} from "./DisposalPage";
 import {TaxiPage} from "./TaxiPage";
+import Ex10 from "./ex10";
 
 
 
@@ -19,6 +20,7 @@ export const App = ()=> {
                 <Route path="/credit" element={<CreditPage/>}/>
                 <Route path="/disposal" element={<DisposalPage/>}/>
                 <Route path={"/taxi"} element={<TaxiPage/>}/>
+                <Route path={"/ex10"} element={<Ex10/>}/>
             </Routes>
         </div>
     )

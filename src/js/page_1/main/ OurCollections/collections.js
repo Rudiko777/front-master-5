@@ -14,6 +14,37 @@ import {A11y, Navigation, Scrollbar} from "swiper/modules";
 
 export const CollectionsSlider = ()=>{
     const[value, setValue] = useState()
+
+    const card1 = {
+        value: "Берегите своих детей и близких за рулём",
+        size: 50
+    }
+
+    const card2 = {
+        value: "Если вам комфортно выплёскивать свои эмоции на автомобиль, избавьтесь от этой дурной привычки. Это ваш главный союзник, который при недолжном к нему отношении быстро станет вашим главным врагом",
+        size: 70
+    }
+
+    const card3 = {
+        value: "Быть автомобилистом в современном городе – значит, постоянно сталкиваться с вызовами, продиктованными спецификой городских условий. Сравнительно небольшая, но густонаселенная территория с тысячами жителей - это всегда плотный трафик",
+        size: 84
+    }
+
+    const truncate = (str, maxLength)=>{
+        let newStr = "";
+        for(let el = 0; el < str.length; el++){
+            newStr += str[el];
+            if (maxLength === newStr.length){
+                let a;
+                a = newStr.slice(0, maxLength + 1) + "...";
+                return a;
+            }
+        }
+        return newStr;
+    }
+
+
+
     return(
         <section className={styles.collectionSlider}>
             <div className="container">
@@ -58,7 +89,7 @@ export const CollectionsSlider = ()=>{
                                         </button>
                                     </div>
                                     <p>
-                                        По статистике для трети автовладельцев поиск бюджетного автомобиля для семьи — актуальная задача.
+                                        {truncate(card1.value, card1.size)}
                                     </p>
                                 </div>
                             </div>
@@ -73,7 +104,7 @@ export const CollectionsSlider = ()=>{
                                         </button>
                                     </div>
                                     <p>
-                                        Если вам комфортно выплёскивать свои эмоции на автомобиль, избавьтесь от этой дурной привычки. Это ваш главный союзник, который при недолжном к нему отношении быстро станет вашим главным врагом.
+                                        {truncate(card2.value, card2.size)}
                                     </p>
                                 </div>
                             </div>
@@ -88,7 +119,7 @@ export const CollectionsSlider = ()=>{
                                         </button>
                                     </div>
                                     <p>
-                                        Быть автомобилистом в современном городе – значит, постоянно сталкиваться с вызовами, продиктованными спецификой городских условий. Сравнительно небольшая, но густонаселенная территория с тысячами жителей - это всегда плотный трафик.
+                                        {truncate(card3.value, card3.size)}
                                     </p>
                                 </div>
                             </div>
@@ -107,7 +138,7 @@ export const CollectionsSlider = ()=>{
                                         </button>
                                     </div>
                                     <p>
-                                        По статистике для трети автовладельцев поиск бюджетного автомобиля для семьи — актуальная задача.
+                                        {truncate(card1.value, card1.size)}
                                     </p>
                                 </div>
                             </div>
@@ -122,7 +153,7 @@ export const CollectionsSlider = ()=>{
                                         </button>
                                     </div>
                                     <p>
-                                        Если вам комфортно выплёскивать свои эмоции на автомобиль, избавьтесь от этой дурной привычки. Это ваш главный союзник, который при недолжном к нему отношении быстро станет вашим главным врагом.
+                                        {truncate(card2.value, card2.size)}
                                     </p>
                                 </div>
                             </div>
@@ -137,7 +168,7 @@ export const CollectionsSlider = ()=>{
                                         </button>
                                     </div>
                                     <p>
-                                        Быть автомобилистом в современном городе – значит, постоянно сталкиваться с вызовами, продиктованными спецификой городских условий. Сравнительно небольшая, но густонаселенная территория с тысячами жителей - это всегда плотный трафик.
+                                        {truncate(card3.value, card3.size)}
                                     </p>
                                 </div>
                             </div>

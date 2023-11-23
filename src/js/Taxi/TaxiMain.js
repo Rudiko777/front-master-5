@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styles from './TaxiMain.module.css'
 import {BreadCrumbs} from "../../components/breadCrumps";
 import Accept from "./components/accept/Accept";
@@ -9,8 +9,29 @@ import SelectClassAuto from "./components/selectClassAuto/SelectClassAuto";
 import TaxiCard from "./components/taxiGrid/TaxiCard";
 import Better from "./components/+/Better";
 import Disadvantages from "./components/-/Disadvantages";
+import like from '../../images/page_1/header-main/likes.svg'
+import DrawingButton from "./DrawingButton";
 
 const TaxiMain = () => {
+    // const [isDrawing, setIsDrawing] = useState(false);
+    //
+    // const handleDrawButtonClick = () => {
+    //     setIsDrawing(!isDrawing);
+    // };
+    //
+    // const handleMouseMove = (event) => {
+    //     if (isDrawing) {
+    //         // Получаем координаты курсора
+    //         const x = event.clientX;
+    //         const y = event.clientY;
+    //
+    //         // Устанавливаем позицию текста
+    //         const textElement = document.getElementById('drawText');
+    //         textElement.style.left = `${x}px`;
+    //         textElement.style.top = `${y}px`;
+    //     }
+    // };
+
     return (
         <>
             <section className={styles.taxiMainSection}>
@@ -58,6 +79,12 @@ const TaxiMain = () => {
                         <Disadvantages/>
                     </div>
                 </section>
+                {/*<button id={"drawButton"} onClick={handleDrawButtonClick}>*/}
+                {/*    Рисование*/}
+                {/*</button>*/}
+                {/*<div id={"canvas"} onMouseMove={handleMouseMove}></div>*/}
+                {/*{isDrawing && <div id="drawText">Текст за курсором</div>}*/}
+                <DrawingButton/>
             </div>
         </>
     );

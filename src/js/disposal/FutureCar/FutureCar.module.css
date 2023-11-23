@@ -152,3 +152,59 @@ select:focus{
     font-weight: 700;
     line-height: 18px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 450px){
+    .futureCarBox::before{
+        width: 27px;
+        height: 27px;
+        top: 14px;
+        left: 19px;
+    }
+    .futureCarTitle{
+        font-size: 20px;
+        max-width: 216px;
+        margin-left: 57px;
+    }
+    .futureCarBox{
+        padding: 17px;
+    }
+    .selectBox{
+        display: block;
+    }
+    .selectWrapper{
+        width: 100%;
+    }
+    .selectBoxSecond{
+        margin-top: 20px;
+        display: block;
+    }
+    .selectBoxSecond::before{
+        width: 250px;
+        height: 155px;
+        background-size: cover;
+        top: 28px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .priceWithSale{
+        margin-top: 150px;
+        text-align: center;
+    }
+    .selectBoxSecondPrice{
+        display: block;
+        text-align: center;
+    }
+    .basicPrice{
+        text-align: center;
+    }
+    .selectBoxSecondBasicPrice{
+        display: block;
+        text-align: center;
+    }
+    .selectBoxSecondRedBox{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+}

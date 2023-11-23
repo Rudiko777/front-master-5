@@ -15,10 +15,6 @@ import {NavigationTen} from "./Navigation";
 
 
 export const MainSlider = ()=>{
-
-
-
-
     return(
         <div className={styles.sliderContainer}>
             <Swiper modules={[Navigation, Pagination, Scrollbar, A11y]}
