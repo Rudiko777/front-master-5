@@ -41,6 +41,13 @@
     background-color: #CA0100;
     color: #fff;
     padding: 6px 14px;
+    transition: all 0.3s linear;
+}
+
+.sliderHeaderAllCol:hover{
+    background-color: #fff;
+    outline: 1px solid #CA0100;
+    color: #CA0100;
 }
 
 .sliderHeader{

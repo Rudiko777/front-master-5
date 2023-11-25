@@ -35,16 +35,18 @@ const TaxiMain = () => {
     return (
         <>
             <section className={styles.taxiMainSection}>
-                <div className="container">
-                    <BreadCrumbs blackText={true}/>
-                    <h1 className={styles.taxiTitle}>
-                        Специальное предложение<br/>на покупку авто под такси
-                    </h1>
-                    <div className={styles.acceptsBox}>
-                        <Accept text={"Льготный автокредит от 1,9%"}/>
-                        <Accept text={"Оклейка авто в подарок"}/>
-                        <Accept text={"Акция действует до 13 сентября!"}/>
-                        <Accept text={"Первоначальный взнос 0%"}/>
+                <div className={styles.depend}>
+                    <div className="container">
+                        <BreadCrumbs/>
+                        <h1 className={styles.taxiTitle}>
+                            Специальное предложение<br/>на покупку авто под такси
+                        </h1>
+                        <div className={styles.acceptsBox}>
+                            <Accept text={"Льготный автокредит от 1,9%"}/>
+                            <Accept text={"Оклейка авто в подарок"}/>
+                            <Accept text={"Акция действует до 13 сентября!"}/>
+                            <Accept text={"Первоначальный взнос 0%"}/>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -79,12 +81,6 @@ const TaxiMain = () => {
                         <Disadvantages/>
                     </div>
                 </section>
-                {/*<button id={"drawButton"} onClick={handleDrawButtonClick}>*/}
-                {/*    Рисование*/}
-                {/*</button>*/}
-                {/*<div id={"canvas"} onMouseMove={handleMouseMove}></div>*/}
-                {/*{isDrawing && <div id="drawText">Текст за курсором</div>}*/}
-                <DrawingButton/>
             </div>
         </>
     );

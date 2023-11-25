@@ -5,12 +5,12 @@ export const InputRange = ({title, limitNumber, shortNumber, max, min})=>{
     const[number, setNumber] = useState('0 - 0т');
 
     const handleClick = ()=>{
-        const valueOfNumber = document.querySelector('input')
-        if (valueOfNumber.value >= limitNumber){
-            setNumber(`0 - ${((valueOfNumber.value)/limitNumber).toFixed(1)}м`)
+        const myInputId = document.getElementById('inputRange');
+        if (myInputId.value >= limitNumber){
+            setNumber(`0 - ${((myInputId.value)/limitNumber).toFixed(1)}м`)
         }
         else{
-            setNumber(`0 - ${((valueOfNumber.value)/shortNumber).toFixed(0)}т`)
+            setNumber(`0 - ${((myInputId.value)/shortNumber).toFixed(0)}т`)
         }
     }
 

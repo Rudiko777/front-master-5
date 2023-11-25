@@ -9,14 +9,25 @@ import noSee from '../../../src/images/Auth/formNosee.svg'
 import car1 from '../../images/Auth/pint1.png'
 import car2 from '../../images/Auth/pint2.png'
 import {CarCards} from "../page_1/main/carCards/carCards";
-
+import {Swiper, SwiperSlide} from "swiper/react";
+import cn from 'classnames'
+// import 'swiper/css/autoplay'
+import 'swiper/css/effect-fade';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+// import 'swiper/css/scrollbar';
+import {A11y, Navigation, Pagination, Scrollbar, Autoplay, EffectFade} from "swiper/modules";
+// import SwiperCore from 'swiper';
+//
+// SwiperCore.use([Navigation, Pagination, Scrollbar, Autoplay, EffectFade]);
 
 export const MainAuth = ()=>{
     const[passwordVisability, setPasswordVisability] = useState(false);
 
     return(
         <>
-            <div className="container">
+            <div className={cn(styles.container, "container")}>
                 <div className={styles.MainAuthInner}>
                     <h1 className={styles.authTitle}>
                         Регистрация на сайте
@@ -70,6 +81,28 @@ export const MainAuth = ()=>{
                     {/*<img className={styles.formPasswordImg} src={formPassword} alt={"Password"}/>*/}
                 </div>
             </div>
+            <Swiper
+                modules={[Navigation, Pagination, Autoplay, EffectFade]}
+                loop={true}
+                autoplay={{ delay: 2500, disableOnInteraction: false}}
+                effect='fade'
+                // slidesPerView={1}
+                centeredSlides={true}
+                className="mySwiper"
+            >
+                <SwiperSlide>
+                    <div className={styles.slide1}></div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className={styles.slide2}></div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className={styles.slide3}></div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className={styles.slide4}></div>
+                </SwiperSlide>
+            </Swiper>
         </>
     )
 }

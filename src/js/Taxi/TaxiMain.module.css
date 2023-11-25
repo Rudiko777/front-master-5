@@ -7,9 +7,7 @@
     margin: 0 auto;
     padding-top: 30px;
     border-radius: 25px;
-    position: relative;
     color: var(--root-color);
-    z-index: -1;
 }
 
 .taxiTitle{
@@ -18,7 +16,11 @@
     font-weight: 700;
 }
 
-.taxiMainSection::before{
+.depend{
+    position: relative;
+}
+
+.depend::before{
     position: absolute;
     content: url("../../images/taxi/taxiCar.png");
     top: 135px;
@@ -153,8 +155,9 @@
     }
     .acceptsBox{
         width: 100%;
-        margin-top: 150px;
+        margin-top: 58px;
         display: flex;
+        gap: 10px;
         flex-wrap: wrap;
     }
     .advantageFirstRow{
@@ -181,6 +184,9 @@
         flex-direction: column;
     }
     .howMuchInTaxi::before{
+        display: none;
+    }
+    .depend::before{
         display: none;
     }
 }

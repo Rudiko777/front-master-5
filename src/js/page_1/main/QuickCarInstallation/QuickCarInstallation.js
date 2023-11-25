@@ -83,7 +83,7 @@ export const QuickCarInstallation = ()=>{
                         <InputRange title={"Цена"} limitNumber={1000000} shortNumber={1000} min={0} max={3000000}/>
                         <Scale />
                         <InterBtn />
-                        <ShowBtn count={73}/>
+                        <ShowBtn/>
                     </div>
                 </div>
             </div>

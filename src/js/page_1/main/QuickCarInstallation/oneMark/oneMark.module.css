@@ -1,15 +1,20 @@
 .carItem{
     display: flex;
     gap: 10px;
-    width: 100%;
+    align-items: center;
 }
 
 .carItemTitle{
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 290%;
     min-width: 90px;
+    transition: all 0.3s linear;
+}
+
+.carItemTitle:hover{
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .carItemImg{

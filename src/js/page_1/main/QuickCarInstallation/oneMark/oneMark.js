@@ -5,7 +5,7 @@ export const OneMark = ({title, logo})=>{
     return(
         <div className={styles.carItem}>
             <img className={styles.carItemImg} src={logo}/>
-            <p className={styles.carItemTitle}>{title}</p>
+            <a href={"#"} className={styles.carItemTitle}>{title}</a>
         </div>
     )
 }

@@ -4,6 +4,7 @@ import {HeaderMain} from "./page_1/header/header-main";
 import FooterMain from "./page_1/footer/footerGeneral";
 import {MainAuth} from "./Auth/MainAuth";
 import {useLocation} from "react-router-dom";
+import cn from "classnames";
 
 
 
@@ -23,7 +24,7 @@ export const Authorization= ()=>{
                     </div>
                 </div>
             </header>
-            <main className={"main"}>
+            <main className={cn("main-auth", "main")}>
                 <MainAuth />
             </main>
             <footer className={"footer"}>

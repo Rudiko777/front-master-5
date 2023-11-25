@@ -1,6 +1,6 @@
 .authTitle{
     text-align: center;
-    color: #323142;
+    color: #fff;
     font-size: 35.25px;
     font-style: normal;
     font-weight: 600;
@@ -11,8 +11,18 @@
 
 .MainAuthInner{
     max-width: 777px;
-    margin: 0 auto;
+    margin: 5% auto;
     text-align: center;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    right: 0;
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    /*z-index: 2;*/
 }
 
 .google,
@@ -136,7 +146,7 @@
 }
 
 .dopInfo{
-    color: #3E3E3E;
+    color: white;
     font-size: 18.9px;
     font-style: normal;
     font-weight: 400;
@@ -190,6 +200,46 @@
     .authSites{
         flex-direction: column;
     }
+}
+
+.container{
+    position: relative;
+}
+
+.slide1{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../images/Auth/main-bmw.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide2{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../images/Auth/bmw-slide2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide3{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../images/Auth/bmw-slide3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide4{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../images/Auth/bmw-slide4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*7 прака*/
