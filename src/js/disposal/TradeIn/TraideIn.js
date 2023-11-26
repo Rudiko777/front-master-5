@@ -12,23 +12,25 @@ const TraideIn = () => {
                 <h2 className={styles.title}>
                     Программа Trade-in
                 </h2>
-                <div className={btnStyles.selectWrapper} style={{marginTop: "28px"}}>
-                    <select className={btnStyles.futureCarMarks} defaultValue={"Марка"}>
-                        <option disabled>Марка</option>
-                        <option >BMW</option>
-                        <option >Mercedes-Benz</option>
-                        <option >Audi</option>
-                        <option >Porsche</option>
-                    </select>
-                </div>
-                <div className={btnStyles.selectWrapper}>
-                    <select className={btnStyles.futureCarModel} defaultValue={"Модель"}>
-                        <option disabled>Модель</option>
-                        <option >m5f90</option>
-                        <option >e63s</option>
-                        <option >rs7</option>
-                        <option >911</option>
-                    </select>
+                <div className={styles.wrappersForSelect}>
+                    <div className={btnStyles.selectWrapper}>
+                        <select className={btnStyles.futureCarMarks} defaultValue={"Марка"}>
+                            <option disabled>Марка</option>
+                            <option >BMW</option>
+                            <option >Mercedes-Benz</option>
+                            <option >Audi</option>
+                            <option >Porsche</option>
+                        </select>
+                    </div>
+                    <div className={btnStyles.selectWrapper}>
+                        <select className={btnStyles.futureCarModel} defaultValue={"Модель"}>
+                            <option disabled>Модель</option>
+                            <option >m5f90</option>
+                            <option >e63s</option>
+                            <option >rs7</option>
+                            <option >911</option>
+                        </select>
+                    </div>
                 </div>
             </div>
             <div className={styles.box2}>

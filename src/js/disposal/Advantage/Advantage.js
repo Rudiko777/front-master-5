@@ -25,43 +25,43 @@ const Advantage = () => {
                 <div className={styles.item}>
                     <img src={cond2} alt={"Error"}/>
                     <p className={styles.itemContext}>
-                        40 кредитных программ на выбор
+                        Срок кредитования до 7 лет
                     </p>
                 </div>
                 <div className={styles.item}>
                     <img src={cond3} alt={"Error"}/>
                     <p className={styles.itemContext}>
-                        40 кредитных программ на выбор
+                        Размер кредита до 3 000 000 ₽
                     </p>
                 </div>
                 <div className={styles.item}>
                     <img src={cond4} alt={"Error"}/>
                     <p className={styles.itemContext}>
-                        40 кредитных программ на выбор
+                        Досрочное погашение без штрафа
                     </p>
                 </div>
                 <div className={styles.item}>
                     <img src={cond5} alt={"Error"}/>
                     <p className={styles.itemContext}>
-                        40 кредитных программ на выбор
+                        Первоначальный взнос от 0%
                     </p>
                 </div>
                 <div className={styles.item}>
                     <img src={cond6} alt={"Error"}/>
                     <p className={styles.itemContext}>
-                        40 кредитных программ на выбор
+                        Ставка по кредиту от 1,9%
                     </p>
                 </div>
                 <div className={styles.item}>
                     <img src={cond7} alt={"Error"}/>
                     <p className={styles.itemContext}>
-                        40 кредитных программ на выбор
+                        Процент одобрения кредита 98%
                     </p>
                 </div>
                 <div className={styles.item}>
                     <img src={cond8} alt={"Error"}/>
                     <p className={styles.itemContext}>
-                        40 кредитных программ на выбор
+                        Ответ кредитных специалистов в течение 30 минут
                     </p>
                 </div>
             </div>

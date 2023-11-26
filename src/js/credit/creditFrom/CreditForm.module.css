@@ -79,18 +79,32 @@
     text-decoration-line: underline;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1000px){
+@media screen and (min-width: 768px) and (max-width: 1024px){
     .creditForm {
-        margin-top: -5px;
+        margin-top: -60px;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
     }
     .formInputGeneral{
         width: 100% !important;
     }
     .inputBox{
-        margin-top: 21px;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .formInputGeneral{
+        max-width: none;
+    }
+    .formButton{
+        grid-column: 1/3;
+    }
+    .infoBox{
+        margin: 0 auto;
+    }
+    .creditFormTitle{
+        font-size: 30px;
     }
 }
 
@@ -106,5 +120,11 @@
     .inputBox{
         margin-top: 21px;
         flex-wrap: wrap;
+    }
+    .formInputGeneral{
+        max-width: none;
+    }
+    .formButton{
+        width: 100%;
     }
 }

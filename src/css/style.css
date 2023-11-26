@@ -356,7 +356,7 @@
     display: none;
 }
 
-@media screen and (min-width: 320px) and (max-width: 1000px){
+@media screen and (min-width: 320px) and (max-width: 450px){
     .footer-containerFluid{
         width: 100% !important;
     }
@@ -408,6 +408,99 @@
     }
     .header-catalogs{
         display: block;
+    }
+
+    .leftsideMenu{
+        display: block;
+        z-index: 5;
+        top: 0;
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        transition: all 0.5s;
+        padding: 20px;
+    }
+    .leftsideMenuList{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        margin-top: 30px;
+    }
+    .leftsideMenuClose{
+        transform: translateX(-200%);
+    }
+    .leftsideMenuList li + li{
+        margin-top: 10px;
+    }
+    .leftsideMenuItem:last-child{
+        margin-bottom: 10px;
+    }
+    .header-main-sidebar-link:active{
+        transform: rotate(90deg);
+    }
+    .header-main-sidebar-link{
+        transition: all 0.3s;
+    }
+    .leftsideMenuCloseBtn:active{
+        transform: rotate(90deg);
+    }
+    .leftsideMenuCloseBtn{
+        transition: all 0.3s;
+    }
+    .header-sidebar-full-page{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .footer-nav-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .header-main-box{
+        position: relative;
+    }
+    .header-top{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .header-main-sidebar{
+        width: 20px;
+        height: 14px;
+    }
+    .header-main-advertisement{
+        display: none;
+    }
+    .header-main-navigation{
+        display: none;
+    }
+    .header-main-connection-btn{
+        display: none;
+    }
+    .header-catalogs-list{
+        display: none;
+    }
+    .header-main-sidebar-link{
+        margin: 0;
+    }
+    .interactive-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-main-logo-container:after{
+        display: none;
+    }
+    .header-catalogs{
+        display: block;
+    }
+    .header-main-connection-tel-numbers-second{
+        display: none;
     }
 
     .leftsideMenu{
@@ -700,6 +793,29 @@
     .reviews-item-push{
         top: 43%;
         left: 41%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .reviews-title{
+        font-size: 40px;
+    }
+    .reviews-item-author{
+        font-size: 25px;
+    }
+    .reviews-item-author-text{
+        font-size: 18px;
+    }
+    .reviews-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .reviews-item-box{
+        min-width: auto;
+    }
+    .reviews-item-push{
+        top: 39%;
+        left: 45%;
     }
 }
 

@@ -86,13 +86,22 @@
     color: #CA0100;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1000px){
+@media screen and (min-width: 1000px) and (max-width: 1024px){
+    .gridTaxiCars{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
     .selectBox{
         flex-wrap: wrap;
         justify-content: center;
     }
     .selectClass{
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
     .selectConfig{
         margin-top: 10px;
@@ -102,6 +111,10 @@
     .gridTaxiCars{
         display: flex;
         flex-wrap: wrap;
+    }
+    .selectClassText{
+        font-size: 25px;
+        grid-column: 1/4;
     }
 }
 

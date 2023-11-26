@@ -1,6 +1,7 @@
 .box{
     padding-bottom: 10px;
     position: relative;
+    margin-bottom: 25px;
 }
 
 .box:after{

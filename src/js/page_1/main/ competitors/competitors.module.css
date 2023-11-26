@@ -87,7 +87,7 @@
         flex-direction: column;
         height: auto;
         padding:  0 20px 30px;
-        border-radius: 25px;
+        border-radius: 50px;
     }
     .competitorsPunch{
         margin-left: -20px;
@@ -112,5 +112,41 @@
     }
     .competitorsBtn{
         padding: 20px 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .competitorsBox{
+        flex-direction: column;
+        height: auto;
+        padding:  0 20px 30px;
+        border-radius: 65px;
+    }
+    .competitorsPunch{
+        margin-left: -20px;
+    }
+    .competitorsInteractiveBox{
+        padding-top: 10px;
+    }
+    .competitorsInteractiveTitle{
+        font-size: 40px;
+        margin-bottom: 22px;
+    }
+    .competitorsInteractiveText{
+        font-size: 25px;
+    }
+    .competitorsBtnsInputs{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+    .competitorsBtn,
+    .competitorsInput{
+        min-width: auto;
+    }
+    .competitorsBtn{
+        padding: 20px 0;
+    }
+    .competitorsCopyright{
+        font-size: 15px;
     }
 }

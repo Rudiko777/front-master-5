@@ -126,6 +126,49 @@
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .mainSliderRec{
+        top: 24px;
+    }
+    .mainSliderTitle{
+        font-size: 40px;
+        top: 59px;
+    }
+    .mainSliderTEXT{
+        font-size: 30px;
+        top: 170px;
+    }
+    .mainSliderCard:after{
+        content: '';
+        background-image: url("../../../../images/page_1/main/car1.png");
+        width: 400px;
+        height: 203px;
+        top: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        left: 0;
+    }
+    .mainSliderCard:before{
+        content: '';
+        background-image: url("../../../../images/page_1/main/car2.png");
+        width: 300px;
+        height: 150px;
+        top: 361px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        left: 147px;
+    }
+    .mainSliderAuto{
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        top: 344px;
+        left: 313px;
+    }
+}
+
 @media screen and (min-width: 1400px) and (max-width: 1600px){
     .mainSliderTitle{
         top: 105px;

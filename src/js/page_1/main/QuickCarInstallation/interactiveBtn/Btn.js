@@ -3,7 +3,7 @@ import styles from './interBtn.module.css'
 import point from '../../../../../images/page_1/main/pointBlack.svg'
 import cn from 'classnames'
 
-export const Btn = ({title})=>{
+export const Btn = ({title, one, two, three})=>{
     const[stylePoint, setStylePoint] = useState(false)
     const[styleListBtn, setStyleListBtn] = useState(false)
 
@@ -33,17 +33,17 @@ export const Btn = ({title})=>{
                                         className={styleListBtn ? cn(styles.btnListItemLink, styles.btnListItemLinkActive) : styles.btnListItemLink}
                                         href={"#"}
                                         onMouseOver={handleListBtn}>
-                                        A220
+                                        {one}
                                     </a>
                                 </li>
                                 <li className={styles.btnListItem}>
                                     <a className={styleListBtn ? cn(styles.btnListItemLink, styles.btnListItemLinkActive) : styles.btnListItemLink} href={"#"} onMouseOver={handleListBtn}>
-                                        B567
+                                        {two}
                                     </a>
                                 </li>
                                 <li className={styles.btnListItem}>
                                     <a className={styleListBtn ? cn(styles.btnListItemLink, styles.btnListItemLinkActive) : styles.btnListItemLink} href={"#"} onMouseOver={handleListBtn}>
-                                        V699
+                                        {three}
                                     </a>
                                 </li>
                             </ul>

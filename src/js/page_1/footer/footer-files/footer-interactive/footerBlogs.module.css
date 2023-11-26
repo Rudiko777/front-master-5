@@ -9,8 +9,8 @@
     gap: 30px;
 }
 
-@media (max-width: 325px) {
+@media screen and (min-width: 320px) and (max-width: 450px) {
     .footerLinksAllList{
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 }

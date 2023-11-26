@@ -153,6 +153,7 @@ select:focus{
     line-height: 18px;
 }
 
+
 @media screen and (min-width: 320px) and (max-width: 450px){
     .futureCarBox::before{
         width: 27px;
@@ -197,6 +198,73 @@ select:focus{
     .basicPrice{
         text-align: center;
     }
+    .selectBoxSecondBasicPrice{
+        display: block;
+        text-align: center;
+    }
+    .selectBoxSecondRedBox{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .futureCarBox::before{
+        width: 27px;
+        height: 27px;
+        top: 14px;
+        left: 19px;
+    }
+    .selectWrapper{
+        margin-top: 0;
+    }
+    .futureCarTitle{
+        font-size: 30px;
+        margin-left: 57px;
+    }
+    .futureCarBox{
+        padding: 17px;
+    }
+    .futureCarBoxBtns{
+        flex-direction: row;
+    }
+    .selectBoxSecondTitle{
+        text-align: center;
+    }
+    .selectBox{
+        display: block;
+    }
+    .selectWrapper{
+        width: 100%;
+    }
+    .selectBoxSecond{
+        margin-top: 20px;
+        display: block;
+    }
+    .selectBoxSecond::before{
+        width: 360px;
+        height: 182px;
+        background-size: cover;
+        top: -5px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .priceWithSale{
+        margin-top: 162px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .selectBoxSecondPrice{
+        display: block;
+        text-align: center;
+    }
+    .basicPrice{
+        text-align: center;
+        font-size: 20px;
+    }
+
     .selectBoxSecondBasicPrice{
         display: block;
         text-align: center;

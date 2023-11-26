@@ -66,7 +66,7 @@ const TaxiMain = () => {
                     <Advantage itemNumber={6} title={<span>Помощь в оформлении<br/>документов</span>}/>
                     <Advantage itemNumber={7} title={<span>Комплект резины<br/>в подарок</span>}/>
                     <Advantage itemNumber={8} title={<span>Оформление ОСАГО<br/>за 15 минут</span>}/>
-                    <Advantage itemNumber={9} title={<span>Поможем оформить<br/>лицензию под такси</span>}/>
+                    <Advantage itemNumber={9} title={<span>Поможем оформить<br/>лицензию под такси</span>} lastlast={true}/>
                 </div>
             </div>
             <TaxiCreditHeader/>

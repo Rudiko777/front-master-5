@@ -11,14 +11,14 @@ import adv8 from '../../../../images/taxi/ad8.svg'
 import adv9 from '../../../../images/taxi/ad9.svg'
 import cn from 'classnames'
 
-const Advantage = ({itemNumber, title}) => {
+const Advantage = ({itemNumber, title, lastlast}) => {
     let advantageImg;
     switch (itemNumber){
         case 1:
             advantageImg = adv1;
     }
     return (
-        <div className={styles.advantageBox}>
+        <div className={lastlast ? styles.last : styles.advantageBox}>
             <div className={styles.imgBox}>
                 <img className={styles.advantageImg} src={
                     itemNumber === 1 ? adv1 : itemNumber === 2 ? adv2 : itemNumber === 3 ? adv3 : itemNumber === 4 ? adv4 : itemNumber === 5 ? adv5 : itemNumber === 6 ? adv6 : itemNumber === 7 ? adv7 : itemNumber === 8 ? adv8 : itemNumber === 9 ? adv9 : null}

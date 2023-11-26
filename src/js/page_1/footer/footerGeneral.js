@@ -51,31 +51,19 @@ class FooterMain extends React.Component{
                 <div className={styles.footer}>
                     <div className="container">
                         <ul className={styles.footerListLinks}>
-                            <li className={styles.footerListLinkItem}>
+                            <li className={styles.footerListLinkItem1}>
                                 <FooterA name={"Каталог авто"} />
-                            </li>
-                            <li className={styles.footerListLinkItem}>
-                                <a className={styles.MoreInfo} href={"#"}>
-                                    Подробнее
-                                </a>
-                            </li>
-                            <li className={styles.footerListLinkItem}>
-                                <a className={styles.MoreInfo} href={"#"}>
-                                    Карта сайта
-                                </a>
+                                <CarList />
                             </li>
                             <li className={styles.footerListLinkItem}>
                                 <FooterA name={"Кредит и рассрочка"} />
+                                <ActionsList />
                             </li>
                             <li className={styles.footerListLinkItem}>
                                 <FooterA name={"Контакты"} />
+                                <FooterContacts />
                             </li>
                         </ul>
-                        <div className={styles.footerUnderLinks}>
-                            <CarList />
-                            <ActionsList />
-                            <FooterContacts />
-                        </div>
                     </div>
                 </div>
                 <div className={styles.footerOffDiller}>

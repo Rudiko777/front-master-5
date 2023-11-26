@@ -46,3 +46,12 @@
         min-height: 129px;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .gridBox{
+        grid-template-columns: repeat(2, 1fr)
+    }
+    .item{
+        min-height: 129px;
+    }
+}

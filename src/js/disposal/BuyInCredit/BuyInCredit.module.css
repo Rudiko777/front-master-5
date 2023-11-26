@@ -203,3 +203,46 @@
         gap: 15px;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .buyInCredit::before{
+        width: 27px;
+        height: 27px;
+        top: 20px;
+        left: 19px;
+    }
+    .box{
+        display: block;
+    }
+    .buyInCredit{
+        padding: 23px 20px 20px 20px;
+    }
+    .inputBoxTitle{
+        margin-left: 57px;
+        font-size: 30px;
+    }
+    .boxItemFirst{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .inputBoxContent{
+        max-width: none;
+        width: 100%;
+    }
+    .boxItemSecond{
+        width: 100%;
+    }
+    .checkboxBox{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .selectBank{
+        padding-top: 25px;
+        align-items: center;
+        gap: 15px;
+    }
+    .selectBank span{
+        font-size: 25px;
+    }
+}

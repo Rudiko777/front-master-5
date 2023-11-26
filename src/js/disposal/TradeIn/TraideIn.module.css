@@ -49,6 +49,13 @@
     gap: 10px;
 }
 
+.wrappersForSelect{
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 @media screen and (min-width: 320px) and (max-width: 450px){
     .tradeInBox::before{
         top: 20px;
@@ -77,5 +84,45 @@
     }
     .btnSmallWidth{
         width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .tradeInBox::before{
+        top: 20px;
+        left: 19px;
+        width: 27px;
+        height: 27px;
+    }
+    .tradeInBox{
+        display: block;
+        padding: 23px 17px 20px;
+    }
+    .wrappersForSelect{
+        display: flex;
+    }
+    .title{
+        font-size: 30px;
+        margin-left: 57px;
+    }
+    .smallBtnBox{
+        width: 100%;
+        gap: 50px;
+    }
+    .box1{
+        width: 100%;
+        max-width: none;
+    }
+    .box2{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .btnSmallWidth{
+        width: 100% !important;
+    }
+    .wrappersForSelect{
+        gap: 50px;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
