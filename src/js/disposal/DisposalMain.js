@@ -10,6 +10,7 @@ import PersonalInfo from "./PersonalInformation/PersonalInfo";
 import Advantage from "./Advantage/Advantage";
 import PurchaseTerms from "./PurchaseTerms/PurchaseTerms";
 import ParticipationProgramme from "./ParticipationProgramme/ParticipationProgramme";
+import BTNNoti from "../page_1/main/BtnNoti/BTNNoti";
 
 const DisposalMain = () => {
     return (
@@ -30,6 +31,7 @@ const DisposalMain = () => {
                 <PurchaseTerms/>
             </div>
             <ParticipationProgramme/>
+            <BTNNoti/>
         </>
     );
 };

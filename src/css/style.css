@@ -189,6 +189,32 @@
     color: #CA0100;
 }
 
+.show_slow_noti{
+    border: none;
+    background-color: #CA0100;
+    border-radius: 6px;
+    padding: 16px 28px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    box-shadow: 3px 3px 10px #1B1B1B;
+}
+
+#pause-button{
+    border: none;
+    background-color: #CA0100;
+    border-radius: 6px;
+    padding: 16px 28px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    box-shadow: 3px 3px 10px #1B1B1B;
+}
+
 
 .header-catalogs{
     display: flex;

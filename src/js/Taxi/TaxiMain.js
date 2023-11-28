@@ -11,6 +11,8 @@ import Better from "./components/+/Better";
 import Disadvantages from "./components/-/Disadvantages";
 import like from '../../images/page_1/header-main/likes.svg'
 import DrawingButton from "./DrawingButton";
+import Natification from "../page_1/main/notification/Natification";
+import ListCreator from "../page_1/main/list/List";
 
 const TaxiMain = () => {
     // const [isDrawing, setIsDrawing] = useState(false);
@@ -81,6 +83,7 @@ const TaxiMain = () => {
                         <Disadvantages/>
                     </div>
                 </section>
+                <ListCreator/>
             </div>
         </>
     );
