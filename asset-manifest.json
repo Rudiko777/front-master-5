@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/front-master-5/static/css/main.c8504a21.css",
+    "main.css": "/front-master-5/static/css/main.1d4fe227.css",
     "main.js": "/front-master-5/static/js/main.629c15e2.js",
     "static/js/787.bc078744.chunk.js": "/front-master-5/static/js/787.bc078744.chunk.js",
     "static/media/main-bmw.jpg": "/front-master-5/static/media/main-bmw.c9b2946dfed1b277e271.jpg",
@@ -120,12 +120,12 @@
     "static/media/bet.svg": "/front-master-5/static/media/bet.68292a5bfa5b365ad5b00e82fbc6cb49.svg",
     "static/media/minus.svg": "/front-master-5/static/media/minus.1abfa8fc5312cc336348a195c1ccb6a2.svg",
     "static/media/krest.svg": "/front-master-5/static/media/krest.5fde3e70fd6fbd821f095e7e9d260426.svg",
-    "main.c8504a21.css.map": "/front-master-5/static/css/main.c8504a21.css.map",
+    "main.1d4fe227.css.map": "/front-master-5/static/css/main.1d4fe227.css.map",
     "main.629c15e2.js.map": "/front-master-5/static/js/main.629c15e2.js.map",
     "787.bc078744.chunk.js.map": "/front-master-5/static/js/787.bc078744.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8504a21.css",
+    "static/css/main.1d4fe227.css",
     "static/js/main.629c15e2.js"
   ]
 }
