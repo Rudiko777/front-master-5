@@ -31,7 +31,7 @@ export const HeaderMain = ()=>{
                         <button className={"leftsideMenuCloseBtn"} onClick={()=>setValue(!value)}>
                             <img src={krest} alt={"Krestik"}/>
                         </button>
-                        <Link to={'/'}>
+                        <Link to={'/front-master-5'}>
                             <img src={sidebarLogo} style={{display: "block"}}/>
                         </Link>
                     </div>
@@ -51,7 +51,7 @@ export const HeaderMain = ()=>{
                         <li className={"leftsideMenuItem"}>
                             <img src={arrow}/>
                             <Link className={"leftsideMenuItem-title"} to={"/credit"}>
-                                Кредит и рассрочка
+                                Страховка
                             </Link>
                         </li>
                         <li className={"leftsideMenuItem"}>
@@ -424,7 +424,7 @@ export const HeaderMain = ()=>{
                     </div>
                 </div>
                 <div className="header-main-logo-container">
-                    <Link to={"/"} className={"header-main-logo-link"}>
+                    <Link to={"/front-master-5"} className={"header-main-logo-link"}>
                         <img className={"header-main-logo"} src={logo} alt={"Logo"}/>
                     </Link>
                 </div>

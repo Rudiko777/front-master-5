@@ -24,7 +24,7 @@ export const Catalogs = ()=>{
                 </li>
                 <li className="header-catalogs-item">
                     <h4 className={"header-catalog-item-title"}>
-                        Кредит и рассрочка
+                        Страховка
                     </h4>
                     <Link className={"point-link"} href={"#"} to={"/credit"}>
                         <img className={"point-img"} src={point} alt={"Point"}/>

@@ -18,20 +18,27 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 // import 'swiper/css/scrollbar';
 import {A11y, Navigation, Pagination, Scrollbar, Autoplay, EffectFade} from "swiper/modules";
+import {Link} from "react-router-dom";
 // import SwiperCore from 'swiper';
 //
 // SwiperCore.use([Navigation, Pagination, Scrollbar, Autoplay, EffectFade]);
 
-export const MainAuth = ()=>{
+export const MainAuth = ({type})=>{
     const[passwordVisability, setPasswordVisability] = useState(false);
 
     return(
         <>
             <div className={cn(styles.container, "container")}>
                 <div className={styles.MainAuthInner}>
-                    <h1 className={styles.authTitle}>
-                        Регистрация на сайте
-                    </h1>
+                    {
+                        type === 'login' ?
+                            <h1 className={styles.authTitle}>
+                                Авторизация
+                            </h1> :
+                            <h1 className={styles.authTitle}>
+                                Регистрация
+                            </h1>
+                    }
                     <div className={styles.authSites}>
                         <button className={styles.authGoogle}>
                             <img className={styles.google} src={google} alt={"Google"}/>
@@ -66,15 +73,24 @@ export const MainAuth = ()=>{
                                 <img className={styles.formNoseeImg} src={noSee} alt={"noSee"}/>
                             </button>
                         </div>
-                        <button className={styles.signUp}>
-                            SIGN UP
-                        </button>
-                        <p className={styles.dopInfo}>
-                            Already Have An Account?
-                            <a href={"#"}>
-                                Log In
-                            </a>
-                        </p>
+                        {
+                            type === 'login' ?
+                                <button className={styles.signUp}>
+                                    SIGN IN
+                                </button> :
+                                <button className={styles.signUp}>
+                                    SIGN UP
+                                </button>
+                        }
+                        {
+                            type === 'login' ? null :
+                                <p className={styles.dopInfo}>
+                                    Already Have An Account?
+                                    <Link to={"/login"}>
+                                        Log In
+                                    </Link>
+                                </p>
+                        }
                     </form>
                     {/*<img className={styles.formNameImg} src={formName} alt={"Name"}/>*/}
                     {/*<img className={styles.formEmailImg} src={formEmail} alt={"Email"}/>*/}

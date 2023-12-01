@@ -9,7 +9,7 @@ import cn from "classnames";
 
 
 
-export const Authorization= ()=>{
+export const Authorization2= ()=>{
     return (
         <div className={"wrapper"}>
             <header className={"header"}>
@@ -25,7 +25,7 @@ export const Authorization= ()=>{
                 </div>
             </header>
             <main className={cn("main-auth", "main")}>
-                <MainAuth type={'auth'}/>
+                <MainAuth type={'login'}/>
             </main>
             <footer className={"footer"}>
                 <FooterMain />
