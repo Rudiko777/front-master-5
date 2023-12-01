@@ -31,7 +31,7 @@ const DisposalMain = () => {
                 <PurchaseTerms/>
             </div>
             <ParticipationProgramme/>
-            <BTNNoti/>
+            {/*<BTNNoti/>*/}
         </>
     );
 };

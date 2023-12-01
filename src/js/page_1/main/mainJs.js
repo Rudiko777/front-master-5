@@ -29,7 +29,7 @@ class MainJs extends React.Component{
                 <div className={"container"}>
                     <CompetitorsJs sales="от 10 до 25 %"/>
                     <Reviews />
-                    <Natification/>
+                    {/*<Natification/>*/}
                 </div>
             </>
         )

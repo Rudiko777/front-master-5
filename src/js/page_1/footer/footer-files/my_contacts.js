@@ -10,8 +10,7 @@ class MyContacts extends React.Component{
             <>
                 <div className={"container"}>
                     <address>
-                        <p>Данный сайт разработал студент РТУ МИРЭА Чакрян Р.А.</p>
-                        <p>Номер телефона: <a href={"tel:89187777777"}>+7(777)-777-77-77</a></p>
+                        <p>Данный сайт разработал студент РТУ МИРЭА Чакрян Р.А. ИКБО-16-22</p>
                         <p>Эл. почта: <a href={"mailto:chakryan_rudik@mail.ru"}>chakryan_rudik@mail.ru</a></p>
                     </address>
                     {/*<div className={"socialLinksBtnBox"} style={{marginTop: "50px", display: "flex", justifyContent: "space-between"}}>*/}
