@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/front-master-5/static/css/main.c8504a21.css",
-    "main.js": "/front-master-5/static/js/main.a36cf51b.js",
+    "main.css": "/front-master-5/static/css/main.105cadbd.css",
+    "main.js": "/front-master-5/static/js/main.b13e9923.js",
     "static/js/787.bc078744.chunk.js": "/front-master-5/static/js/787.bc078744.chunk.js",
     "static/media/main-bmw.jpg": "/front-master-5/static/media/main-bmw.c9b2946dfed1b277e271.jpg",
     "static/media/backGround.png": "/front-master-5/static/media/backGround.cbd0f0aeff3c0f557ffb.png",
     "static/media/bmw-slide2.jpg": "/front-master-5/static/media/bmw-slide2.aee95e684e651f923ae5.jpg",
     "static/media/1 50502083.png": "/front-master-5/static/media/1 50502083.9fd1518e12c476a3d66b.png",
     "static/media/ConditionProga.jpeg": "/front-master-5/static/media/ConditionProga.995dd4cb4a253e8d7164.jpeg",
+    "static/media/toyota.jpeg": "/front-master-5/static/media/toyota.6d54c0d67b395fcd6122.jpeg",
     "static/media/backMain.png": "/front-master-5/static/media/backMain.fd8bf789740a5ff186e0.png",
     "static/media/bmw-slide4.jpg": "/front-master-5/static/media/bmw-slide4.423d215dbd400a33f9ec.jpg",
     "static/media/documents.png": "/front-master-5/static/media/documents.4afd6111ff23800b7835.png",
+    "static/media/lamba.jpeg": "/front-master-5/static/media/lamba.08b949cf1d75ea462f89.jpeg",
     "static/media/sliderBack.png": "/front-master-5/static/media/sliderBack.9af8ed7ce957c651fec2.png",
     "static/media/redCar.png": "/front-master-5/static/media/redCar.ce46467c3ef49e1bc14b.png",
     "static/media/bmw-slide3.jpg": "/front-master-5/static/media/bmw-slide3.f7b0a911ad8b18faeb7a.jpg",
@@ -120,12 +122,12 @@
     "static/media/bet.svg": "/front-master-5/static/media/bet.68292a5bfa5b365ad5b00e82fbc6cb49.svg",
     "static/media/minus.svg": "/front-master-5/static/media/minus.1abfa8fc5312cc336348a195c1ccb6a2.svg",
     "static/media/krest.svg": "/front-master-5/static/media/krest.5fde3e70fd6fbd821f095e7e9d260426.svg",
-    "main.c8504a21.css.map": "/front-master-5/static/css/main.c8504a21.css.map",
-    "main.a36cf51b.js.map": "/front-master-5/static/js/main.a36cf51b.js.map",
+    "main.105cadbd.css.map": "/front-master-5/static/css/main.105cadbd.css.map",
+    "main.b13e9923.js.map": "/front-master-5/static/js/main.b13e9923.js.map",
     "787.bc078744.chunk.js.map": "/front-master-5/static/js/787.bc078744.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8504a21.css",
-    "static/js/main.a36cf51b.js"
+    "static/css/main.105cadbd.css",
+    "static/js/main.b13e9923.js"
   ]
 }
