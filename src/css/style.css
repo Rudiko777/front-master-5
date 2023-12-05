@@ -997,3 +997,20 @@
     font-weight: 700;
     line-height: 180%;
 }
+
+.back{
+    height: 2000px; /* Для создания прокручиваемого контента */
+}
+
+.section {
+    height: 500px;
+    background-color: #f2f2f2;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+
+.active{
+    background-color: #CA0100;
+}

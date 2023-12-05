@@ -106,9 +106,14 @@
     }
     .GeneralBox{
         width: 100%;
+        position: relative;
     }
     .Btn{
         width: 100%;
+    }
+    .btnInsideBox{
+        width: 100%;
+        z-index: 10;
     }
 }
 

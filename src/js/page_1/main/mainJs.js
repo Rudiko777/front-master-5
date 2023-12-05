@@ -12,6 +12,7 @@ import {FormPraca2} from "./formPraca4/formPraca2";
 import GradientCards from "./gradient/GradientCards";
 import Basket from "./basket/Basket";
 import Natification from "./notification/Natification";
+import NewNatification from "./notification/NewNatification";
 
 
 
@@ -29,7 +30,6 @@ class MainJs extends React.Component{
                 <div className={"container"}>
                     <CompetitorsJs sales="от 10 до 25 %"/>
                     <Reviews />
-                    {/*<Natification/>*/}
                 </div>
             </>
         )

@@ -83,7 +83,6 @@ const TaxiMain = () => {
                         <Disadvantages/>
                     </div>
                 </section>
-                {/*<ListCreator/>*/}
             </div>
         </>
     );
