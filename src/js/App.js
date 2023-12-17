@@ -23,6 +23,7 @@ export const App = ()=> {
                 <Route path="/credit" element={<CreditPage/>}/>
                 <Route path="/disposal" element={<DisposalPage/>}/>
                 <Route path={"/taxi"} element={<TaxiPage/>}/>
+                <Route path={'/slider'} element={<AnyPage/>}/>
             </Routes>
         </div>
     )

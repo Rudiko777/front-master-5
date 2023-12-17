@@ -9,23 +9,45 @@ import toyota from '../images/AnyPage/toyota.jpeg'
 
 
 export const AnyPage = ()=>{
-    document.addEventListener("click", function(event) {
-        let centerX = event.clientX;
-        let centerY = event.clientY;
-        alert("Coordinates: " + centerX + ", " + centerY);
+    useEffect(() => {
+        let jinja = document.querySelector('.sliderMainNew')
+        let btn = document.querySelector('.slider-btn')
+        btn.onmousedown = function (e){
+            e.preventDefault();
+            let shiftX = e.clientX - btn.getBoundingClientRect().left
+
+            document.addEventListener('mousemove', onMouseMove)
+            document.addEventListener('mouseup', onMouseUp)
+
+            function onMouseMove(e){
+                let newLeft = e.clientX - shiftX - jinja.getBoundingClientRect().left
+                if (newLeft<0){
+                    newLeft=0;
+                }
+                let rightEdge = jinja.offsetWidth - btn.offsetWidth
+                if(newLeft > rightEdge)
+                    newLeft=rightEdge
+                btn.style.left = newLeft+'px'
+            }
+            function onMouseUp(){
+                document.removeEventListener('mouseup', onMouseUp)
+                document.removeEventListener('mousemove', onMouseMove)
+            }
+        }
+        btn.ondragstart = function (){
+            return false;
+        }
     });
 
-    useEffect(() => {
-        const div = document.getElementById('centered-element')
-        div.style.position='fixed'
-        div.style.top = '50%'
-        div.style.left = '50%'
-        div.style.transform = 'translate(-50%, -50%)'
-    }, []);
+
 
     return (
-        <div id="centered-element">
-            <img id="centered-image" src={toyota} alt="Centered Image"/>
-        </div>
+        <>
+            <div style={{margin: '50px 0'}}>
+                <div className={'sliderMainNew'} id={'jinja'}>
+                    <div className={'slider-btn'}></div>
+                </div>
+            </div>
+        </>
     )
 }

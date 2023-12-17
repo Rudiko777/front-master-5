@@ -1,0 +1,26 @@
+.contents{
+    height: 200px;
+    background-color: #CA0100;
+}
+
+.box{
+    padding: 20px 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageGallery{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul{
+    padding: 40px 0 !important;
+}
+
+.selected{
+    font-size: 20px;
+    font-weight: 700;
+    color: #CA0100;
+}

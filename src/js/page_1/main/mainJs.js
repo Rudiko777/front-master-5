@@ -13,6 +13,12 @@ import GradientCards from "./gradient/GradientCards";
 import Basket from "./basket/Basket";
 import Natification from "./notification/Natification";
 import NewNatification from "./notification/NewNatification";
+import Ex14First from "../../components14/Ex14First";
+import Ex14Second from "../../components14/Ex14Second";
+import Ex14Task3 from "../../components14/Ex144Task3Module";
+import Ex14Task6 from "../../components14/Ex14Task6";
+import DragonDrop from "../../components14/DragonDrop";
+import {AnyPage} from "../../AnyPage";
 
 
 
@@ -30,6 +36,12 @@ class MainJs extends React.Component{
                 <div className={"container"}>
                     <CompetitorsJs sales="от 10 до 25 %"/>
                     <Reviews />
+                    <Ex14First/>
+                    <Ex14Second/>
+                    <Ex14Task3/>
+                    <Ex14Task6/>
+                    <DragonDrop/>
+                    <AnyPage/>
                 </div>
             </>
         )
