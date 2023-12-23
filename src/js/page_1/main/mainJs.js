@@ -9,7 +9,7 @@ import {CarCards} from "./carCards/carCards";
 import {CollectionsSlider} from "./ OurCollections/collections";
 import {CompetitorsJs} from "./ competitors/competitorsJs";
 import {FormPraca2} from "./formPraca4/formPraca2";
-import GradientCards from "./gradient/GradientCards";
+import GradientCards from "../../practices/practice7/gradient/GradientCards";
 import Basket from "./basket/Basket";
 import Natification from "./notification/Natification";
 import NewNatification from "./notification/NewNatification";
@@ -36,12 +36,6 @@ class MainJs extends React.Component{
                 <div className={"container"}>
                     <CompetitorsJs sales="от 10 до 25 %"/>
                     <Reviews />
-                    <Ex14First/>
-                    <Ex14Second/>
-                    <Ex14Task3/>
-                    <Ex14Task6/>
-                    <DragonDrop/>
-                    <AnyPage/>
                 </div>
             </>
         )

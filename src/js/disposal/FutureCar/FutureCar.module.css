@@ -64,6 +64,7 @@
     appearance: none;
     cursor: pointer;
     border: 1px solid #E1E1E1;
+    color: #262626;
 }
 
 select:focus{

@@ -1,0 +1,32 @@
+.notifications {
+    position: relative;
+}
+
+.notifications__toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.notifications__list {
+    display: none;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    z-index: 999;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    list-style: none;
+}
+
+.notifications__list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.notifications:hover .notifications__list {
+    display: block;
+}

@@ -1,0 +1,41 @@
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s, background-color 0.3s;
+}
+
+.facebook::before {
+    background-color: blue;
+}
+
+.twitter::before {
+    background-color: lightblue;
+}
+
+.instagram::before {
+    background-color: purple;
+}
+
+.button:hover::before {
+    background-color: transparent;
+    opacity: 0;
+    cursor: pointer;
+}
